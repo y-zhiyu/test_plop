@@ -1,6 +1,6 @@
 {
   "name": "plop_tbtest",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/y-zhiyu/test_plop#readme",
   "devDependencies": {
     "plop": "^3.1.2"
+  },
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
