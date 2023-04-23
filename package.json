@@ -1,11 +1,11 @@
 {
   "name": "plop_tbtest",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "plop": "plop"
+    "plop": "plop --plopfile ./index.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,5 @@
   "homepage": "https://github.com/y-zhiyu/test_plop#readme",
   "devDependencies": {
     "plop": "^3.1.2"
-  },
-  "dependencies": {
-    "path": "^0.12.7"
   }
 }
